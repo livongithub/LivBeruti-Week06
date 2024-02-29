@@ -1,0 +1,87 @@
+.trial1 .word1{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-left: 5px;
+}
+
+.trial1 .word2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#my-elem{
+    width: 400px;
+    line-height: 30px;
+}
+
+.up{
+    margin-top: -10px;
+}
+
+#my-elem .word2, #my-elem .word7, #my-elem .word12, #my-elem .word17{
+    color: rgb(100, 134, 255);
+    font-size: 20px;
+}
+
+#my-elem .word3, #my-elem .word8, #my-elem .word13, #my-elem .word18{
+    color: rgb(222, 120, 45);
+    font-size: 30px;
+}
+
+#my-elem .word4, #my-elem .word9, #my-elem .word14{
+    color: rgb(12, 255, 17);
+    font-size: 40px;
+}
+
+#my-elem .word5, #my-elem .word10, #my-elem .word15{
+    color: rgb(2, 2, 254);
+    font-size: 50px;
+}
+
+#my-elem .word6, #my-elem .word11, #my-elem .word16{
+    color: rgb(169, 81, 169);
+    font-size: 60px;
+}
+
+#my-elem>*:hover{
+    margin-top: -10px;
+}
+
+.trial4, .trial5{
+    margin-top: 50px;
+    position: relative;
+    height: 300px;
+}
+.trial6{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.skew-object{
+    transform: rotateX('180deg');
+}
+
+.addcolor{
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.trial7>*>*{
+    position: absolute;
+    transition: all 200ms ease-in-out;
+}
+
+.trial8{
+    margin-top: 100px;
+    width: 700px;
+    transition: all 200ms ease-in-out;
+}
